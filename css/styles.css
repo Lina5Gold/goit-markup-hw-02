@@ -17,7 +17,7 @@ ul {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1, 1px;
+  line-height: 1, 2px;
   text-transform: capitalize;
 }
 
@@ -75,11 +75,13 @@ ul {
   font-weight: 500;
   letter-spacing: 0, 04em;
   background-color: #4d5ae5;
+  text-align: center;
 }
 
 .hero .hero-button:hover,
 .hero .hero-button:focus {
   background-color: #404bbf;
+  cursor: pointer;
 }
 
 .advantages .advantages-title {
@@ -99,6 +101,7 @@ ul {
   font-size: 20px;
   font-weight: 500;
   line-height: 1, 2px;
+  text-transform: capitalize;
 }
 
 .team .team-text {
@@ -110,6 +113,7 @@ ul {
   font-size: 20px;
   font-weight: 500;
   line-height: 1, 2px;
+  text-transform: capitalize;
 }
 
 .footer {
