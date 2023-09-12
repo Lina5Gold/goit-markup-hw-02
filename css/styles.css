@@ -12,7 +12,7 @@ ul {
   list-style-type: none;
 }
 
-.logo {
+.nav .logo {
   color: #2e2f42;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -22,15 +22,22 @@ ul {
   text-transform: uppercase;
   text-decoration: none;
 }
-.logo-blue {
+.nav .logo-blue {
   color: #4d5ae5;
 }
 
-.nav-list {
+.nav .nav-link {
   color: #2e2f42;
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
   line-height: 1, 5px;
-  letter-spacing: 0, 32px;
+  letter-spacing: 0, 02em;
+  text-decoration: none;
+}
+
+.nav .nav-link:hover,
+.nav .nav-link:focus {
+  color: #404bbf;
+  text-decoration: underline;
 }
